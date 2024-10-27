@@ -1,13 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
 import React from 'react';
-module.exports = {
-  content: ["./src/**/*.{html,js}"],
-  theme: {
-    extend: {},
-  },
-  plugins: [],
-}
 
 function App() {
   return (
