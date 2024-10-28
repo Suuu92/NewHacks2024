@@ -1,8 +1,11 @@
 .box {
+  background-image: url('./intro.jpg'); 
+  background-size: cover;
+  background-position: center;
+  width: 600px;
   padding: 30px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  max-width: 700px;
-  height: 500px;
+  height: 600px;
   margin: auto;
   text-align: center;
   font-family: 'Baskervville', serif;
@@ -10,15 +13,34 @@
 
 .box button{
   border: none;
-    outline: 0;
-    padding: 30px;
-    color: black;
-    text-align: center;
-    cursor: pointer;
-    
-    font-size: 15px;
+  outline: 0;
+  padding: 30px;
+  color: black;
+  text-align: center;
+  cursor: pointer;
+  font-size: 15px;
 }
 
-.card button:hover {
-  opacity: 0.7;
+.earthquake{
+  background-image: url(./forest.jpg);
+  font-size: 20px;
+  background-size: cover;
+  background-position: center;
+  width: 600px;
+  padding: 30px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  height: 600px;
+  margin: auto;
+  text-align: center;
+  font-family: 'Baskervville', serif;
+}
+
+.link{
+  font-size: 20px;
+  padding: 20px;
+  border-radius: 5px;
+  font-family: 'Baskervville', serif;
+  background-color: white;
+  text-decoration: none;
+  color: inherit;
 }
